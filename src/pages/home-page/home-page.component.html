@@ -1,0 +1,25 @@
+<section class="page">
+  <header>
+    <h1 class="page-title">Utilities</h1>
+  </header>
+
+  <main>
+    <nav class="route-list-wrapper">
+      <ul class="route-list list-unstyled">
+        @for (route of routes; track route.path) {
+
+          <li class="route-item">
+            <a
+              class="flex justify-center items-center h-full"
+              [routerLink]="route.disabled ? null : route.path"
+              [class.disabled]="route.disabled"
+            >
+              <span class="m-auto">{{ route.title }}</span>
+            </a>
+          </li>
+
+        }
+      </ul>
+    </nav>
+  </main>
+</section>
