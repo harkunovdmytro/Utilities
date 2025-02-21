@@ -1,0 +1,41 @@
+// ===== ===== ===== LINKS ===== ===== =====
+
+a.disabled {
+  cursor: not-allowed;
+  user-select: none;
+}
+
+// ===== ===== ===== LAYOUT ===== ===== =====
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+

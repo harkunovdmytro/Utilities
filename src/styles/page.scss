@@ -1,0 +1,10 @@
+.page {
+  padding: 16px;
+  height: var(--page-height);
+
+  .page-title {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 64px;
+  }
+}
