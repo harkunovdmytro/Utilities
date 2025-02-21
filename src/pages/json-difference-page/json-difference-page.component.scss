@@ -1,0 +1,23 @@
+.actions {
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.difference {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 500px;
+  gap: 32px;
+
+  textarea {
+    width: 100%;
+    height: 100%;
+  }
+
+  .parse-error {
+    margin-top: 32px;
+    padding: 16px;
+    border: 1px solid #f36e6e;
+    color: #f36e6e;
+  }
+}
